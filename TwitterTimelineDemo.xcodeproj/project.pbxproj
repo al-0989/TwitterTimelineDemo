@@ -14,6 +14,10 @@
 		8D2EE2C41CCBED6700FDE2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2EE2C21CCBED6700FDE2C7 /* LaunchScreen.storyboard */; };
 		8D2EE2CF1CCBED6700FDE2C7 /* TwitterTimelineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EE2CE1CCBED6700FDE2C7 /* TwitterTimelineDemoTests.swift */; };
 		8D2EE2DA1CCBED6700FDE2C7 /* TwitterTimelineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EE2D91CCBED6700FDE2C7 /* TwitterTimelineDemoUITests.swift */; };
+		8D2EE2EC1CCBEDEF00FDE2C7 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2EE2E81CCBEDEF00FDE2C7 /* Fabric.framework */; };
+		8D2EE2ED1CCBEDEF00FDE2C7 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2EE2E91CCBEDEF00FDE2C7 /* TwitterKit.framework */; };
+		8D2EE2EE1CCBEDEF00FDE2C7 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D2EE2EA1CCBEDEF00FDE2C7 /* TwitterKitResources.bundle */; };
+		8D2EE2EF1CCBEDEF00FDE2C7 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2EE2EB1CCBEDEF00FDE2C7 /* TwitterCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		8D2EE2D51CCBED6700FDE2C7 /* TwitterTimelineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterTimelineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2EE2D91CCBED6700FDE2C7 /* TwitterTimelineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTimelineDemoUITests.swift; sourceTree = "<group>"; };
 		8D2EE2DB1CCBED6700FDE2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2EE2E81CCBEDEF00FDE2C7 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8D2EE2E91CCBEDEF00FDE2C7 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		8D2EE2EA1CCBEDEF00FDE2C7 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		8D2EE2EB1CCBEDEF00FDE2C7 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2EE2EC1CCBEDEF00FDE2C7 /* Fabric.framework in Frameworks */,
+				8D2EE2EF1CCBEDEF00FDE2C7 /* TwitterCore.framework in Frameworks */,
+				8D2EE2ED1CCBEDEF00FDE2C7 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +114,10 @@
 				8D2EE2C01CCBED6700FDE2C7 /* Assets.xcassets */,
 				8D2EE2C21CCBED6700FDE2C7 /* LaunchScreen.storyboard */,
 				8D2EE2C51CCBED6700FDE2C7 /* Info.plist */,
+				8D2EE2E81CCBEDEF00FDE2C7 /* Fabric.framework */,
+				8D2EE2E91CCBEDEF00FDE2C7 /* TwitterKit.framework */,
+				8D2EE2EA1CCBEDEF00FDE2C7 /* TwitterKitResources.bundle */,
+				8D2EE2EB1CCBEDEF00FDE2C7 /* TwitterCore.framework */,
 			);
 			path = TwitterTimelineDemo;
 			sourceTree = "<group>";
@@ -135,6 +150,7 @@
 				8D2EE2B21CCBED6700FDE2C7 /* Sources */,
 				8D2EE2B31CCBED6700FDE2C7 /* Frameworks */,
 				8D2EE2B41CCBED6700FDE2C7 /* Resources */,
+				8D2EE2E71CCBEDBF00FDE2C7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -232,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2EE2EE1CCBEDEF00FDE2C7 /* TwitterKitResources.bundle in Resources */,
 				8D2EE2C41CCBED6700FDE2C7 /* LaunchScreen.storyboard in Resources */,
 				8D2EE2C11CCBED6700FDE2C7 /* Assets.xcassets in Resources */,
 				8D2EE2BF1CCBED6700FDE2C7 /* Main.storyboard in Resources */,
@@ -253,6 +270,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D2EE2E71CCBEDBF00FDE2C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 0fe9c5daf58c03723042ea1140c73330c6d859d6 3318bd84ccdd150105a9d0fc3f5f4e7aa2d6036b5902c7cca209c4094806d99d";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D2EE2B21CCBED6700FDE2C7 /* Sources */ = {
@@ -335,7 +368,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -402,6 +435,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TwitterTimelineDemo",
+				);
 				INFOPLIST_FILE = TwitterTimelineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = A.TwitterTimelineDemo;
@@ -413,6 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TwitterTimelineDemo",
+				);
 				INFOPLIST_FILE = TwitterTimelineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = A.TwitterTimelineDemo;
